@@ -22,7 +22,6 @@ int generateCombinations(int arr[], int data[], int start, int end, int index, i
 void printCombination(int arr[], int n, int r)
 {
     // A temporary array to store all combination one by one
-    // int* data = (int*)malloc(sizeof(int)*r);
     int data[r];
  
     // Print all combination using temporary array 'data[]'
